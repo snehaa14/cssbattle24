@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+ 
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: gray;
+    padding: 10px 20px;
+  }
+  
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .marvel {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: crimson;
+  }
+  
+  .characters {
+    font-size: 20px;
+  }
+  
+ 
+  .navbar-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    width: 10px; 
+    border-radius: 20%;
+    padding: 5px; 
+  }
+  
+  .search-bar {
+    width: 300px; 
+    padding: 5px; 
+    font-size: 14px; 
+    border-radius: 5px; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: gray;
+  }
+  
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bottomleft,
+  .bottomcenter,
+  .bottomright {
+    display: flex;
+  }
+  
+  .menu-item {
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .bottomcenter {
+    justify-content: center;
+  }
+  
+  .bottomleft {
+    justify-content: flex-start;
+  }
+  
+  .bottomright {
+    justify-content: flex-end;
+  }
+  
+
+  .boxes {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .box {
+    margin-left: 2%;
+    margin-top: 15%;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+  }
+  
+  .box1 {
+    background: linear-gradient(to bottom right, rgb(59, 85, 216), purple);
+  }
+  
+  .box2 {
+    background: linear-gradient(to bottom right, red, yellow);
+  }
+  
+  .box3 {
+    background: linear-gradient(to bottom right, purple, blue);
+  }
+  
+  .box4 {
+    background: linear-gradient(to bottom right, red, lightblue);
+  }
+  
+  .text-container {
+    color: white;
+    text-align: center;
+  }
+  
+  .title {
+    margin-left: 100px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .name {
+    font-size: 14px;
+    margin-left: 150px;
+  }
+  
+  .photo {
+    margin-bottom: 10px;
+    width: 60%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  .photo1 {
+    width: 75%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .photo2 {
+    width: 75%;
+    height: auto;
+    margin-top: 0px;
+    border-radius: 10px;
+  }
